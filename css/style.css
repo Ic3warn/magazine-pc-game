@@ -1,0 +1,136 @@
+body{
+	margin:3px;
+	padding: 3px;
+background-image: url('https://kartinkin.net/uploads/posts/2021-07/thumbs/1626768294_29-kartinkin-com-p-temno-serii-fon-gradient-krasivo-30.jpg');	
+height: 50%;
+width: 100%;
+}
+
+.logo{
+	color: #C0C0C0;
+	height:200px;
+	width:200px;
+	border-style: solid;
+	box-shadow: 4px 4px 4px;
+}
+.contant{
+	margin: 0;
+	padding: 0;
+}
+.info_status{
+text-align: center;
+font-family: arial;
+font-size: 19px;
+color:#D3D3D3;
+}
+.info2{
+border-style: solid;
+border-radius: 20px;
+border-color: #C0C0C0;
+font-size: 17px;
+font-family: sans-serif;
+}
+.style__game{
+	margin: 5px;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 70px;
+	border-color: #C0C0C0;
+
+}
+
+.games{
+		display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 100%;
+object-fit: cover;
+
+
+}
+.games2{
+	display: flex;
+   justify-content: space-between;
+     width: 100%;
+   height: 100%;
+object-fit: cover;
+}
+* {
+   box-sizing: border-box;
+}
+.product-item {
+   width: 300px;
+   text-align: center;
+   margin: 0 auto;
+   background:#708090;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+}
+
+.product-item img {
+   display: block;
+   width: 100%;
+}
+.product-list {
+   background: #708090;
+   padding: 15px 0;
+}
+.product-list h3 {
+   font-size: 20px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price {
+   font-size: 16px;
+   display: grid;
+   margin-bottom: 10px;
+}
+.comments{
+width: 95%;
+ border: 2px solid #ccc;
+ border-radius: 5px; 
+ padding: 16px; 
+  margin: 16px auto;
+	font-family: FreeMono;
+	font-size: 20px;
+	color:  #C0C0C0;
+	text-align: left;
+
+}
+.photo{ 
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 90px;
+}
+ @media (max-width: 450px) {
+  .comments {
+    text-align: center;
+}
+.photo{
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+@media (max-width: 450px){
+	
+}
+
+.ending{
+	margin: 3px;
+	padding: 3px ;
+	border-style: solid;
+	font-size: 20px;
+	font-family:"Open Sans";
+	color:#D3D3D3;
+}
+.contact{
+	margin: 3px;
+	padding: 3px;
+	border-style: solid;
+	border-radius: 2px;
+	font-size: 20px;
+	font-family:"Open Sans";
+	color: #D3D3D3;
+}
